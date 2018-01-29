@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table One */
+.tableOne table, th, td {
+    border: 1px solid black;
+}
+
+.tableOne th {
+    background-color: gray;
+    font-family: Georgia;
+    font-size: 16px;
+    padding: 0px 10px 10px 10px;
+}
+
+.tableOne td {
+    padding: 0px 10px 10px 10px;
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+.tableOne tr {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+
+/* Table Two */
+.tableTwo {
+    border: 1px solid #993738;
+}
+
+.tableTwo th  {
+    border: 1px solid #993738;
+    background-color: #993738;
+    font-family: Georgia;
+    font-size: 16px;
+    color: white;
+}
+
+.tableTwo tr  {
+    border: 1px solid #993738;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.tableTwo tr:nth-child(even) {background-color: lightgray;}
+
+.tableTwo td  {
+    border: 1px solid #993738;
+}
+
