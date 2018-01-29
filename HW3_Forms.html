@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW3 Forms | Moises Martinez</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/formStyles.css">
+</head>
+<body>
+<h1>Payment Form</h1>
+
+<p>All fields are REQUIRED</p>
+
+<form class="specialClass">
+    <label>First Name</label>
+    <input type="text" name="fname" value="">
+    <br>
+    <label>Last Name</label>
+    <input type="text" name="lname" value="">
+    <br>
+    <label>Street Address</label>
+    <input type="text" name="address" value="">
+    <br>
+    <label>City</label>
+    <input type="text" name="city" value="">
+    <br>
+    <label>State</label>
+    <input type="text" name="state" value="">
+    <br>
+    <label>ZIP/Postal Code</label>
+    <input type="text" name="zip" value="">
+    <br>
+    <label>Credit Card Type</label>
+    <br>
+    <input type="radio" name="card" value="MasterCard" checked><label>MasterCard</label>
+    <input type="radio" name="card" value="VISA"><label>VISA</label>
+    <input type="radio" name="card" value="Discover"><label>Discover</label>
+    <br>
+    <label>Credit Card Number</label>
+    <input type="text" name="creditcardnumber" value="">
+    <br>
+    <label>Exipration Date</label>
+    <select name="month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+    </select>
+
+    <select>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+    </select>
+    <br>
+    <label>Special Notes</label>
+    <br>
+    <textarea name="message" rows="10" cols="30" placeholder="Enter notes here..."></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Submit Payment">
+</form>
+</body>
+</html>
