@@ -1,0 +1,46 @@
+body {
+    margin: auto 0;
+    border: 4px solid lightgray;
+}
+
+.Banner {
+    padding: 15px;
+    height: 50px;
+    border-bottom: 2px solid lightgray;
+}
+
+.Main {
+    padding: 0px;
+    margin: 0px;
+    height: 600px;
+    background-image: url("../images/habitat/globe.png");
+    background-repeat: no-repeat;
+    border-top: 2px solid lightgray;
+}
+
+.Nav {
+    float: left;
+    height: inherit;
+    width: 120px;
+    padding-right: 15px;
+    background-color: rgba(190, 190, 190, 0.6);
+}
+
+.Nav a {
+    display: block;
+    text-decoration: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.RegistrationForm {
+    height: inherit;
+    padding-left: 150px;
+    padding-right: 25px;
+}
